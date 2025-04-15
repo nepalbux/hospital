@@ -1,0 +1,1713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lekhanath City Hospital - Quality Healthcare in Pokhara, Nepal</title>
+<link rel="icon" href="https://media-hosting.imagekit.io/d6cdfe076f0a4de9/favicon.ico?Expires=1839342735&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=qikqGNJGlgOlcp5kSYmKnpohzxAaxrF7G5bXFumHDTy89K3fJPIVIF1aYG-Ko1repcnQl66EQzPE3GjYR3pNANiyNuDXedLGeLwYvBO11kG2Dda-nvjgbtBh2Qzys37BVlVXvpbBaDyATlWVWiwuAKvYm9VjSlKG6MQf0IlLfAGiWkC~un2UDpDhPe9VqPOXVqDlb9Fpc6J9gWiAhdpcJNgTKnVwJ5L~JrlH6Id~cK98TcOVlGngfNMOpsBz-DMp76hcKJ7jQZvxXzjuDWA16PJrqsMDtei82nQL8QEvNf9mfd0KyN7OsjHUUi7AE4r5jLUbY5c2DDYIo-8jabxH3w__" type="image/x-icon">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#8E6FF7',secondary:'#1A237E'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+.perspective-1000 {
+  perspective: 1000px;
+}
+.rotate-y-12 {
+  transform: rotateY(12deg);
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.hover\:float:hover {
+  animation: float 2s ease-in-out infinite;
+}
+body {
+font-family: 'Poppins', sans-serif;
+}
+.appointment-form input[type="date"]::-webkit-calendar-picker-indicator {
+filter: invert(0.5);
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+.custom-checkbox {
+position: relative;
+padding-left: 2rem;
+cursor: pointer;
+user-select: none;
+}
+.custom-checkbox input {
+position: absolute;
+opacity: 0;
+cursor: pointer;
+height: 0;
+width: 0;
+}
+.checkmark {
+position: absolute;
+top: 0;
+left: 0;
+height: 1.25rem;
+width: 1.25rem;
+background-color: #fff;
+border: 2px solid #e2e8f0;
+border-radius: 4px;
+}
+.custom-checkbox:hover input ~ .checkmark {
+border-color: #cbd5e0;
+}
+.custom-checkbox input:checked ~ .checkmark {
+background-color: #8E6FF7;
+border-color: #8E6FF7;
+}
+.checkmark:after {
+content: "";
+position: absolute;
+display: none;
+}
+.custom-checkbox input:checked ~ .checkmark:after {
+display: block;
+}
+.custom-checkbox .checkmark:after {
+left: 0.4rem;
+top: 0.2rem;
+width: 0.3rem;
+height: 0.6rem;
+border: solid white;
+border-width: 0 2px 2px 0;
+transform: rotate(45deg);
+}
+.switch {
+position: relative;
+display: inline-block;
+width: 3.5rem;
+height: 1.75rem;
+}
+.switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #e2e8f0;
+transition: .4s;
+border-radius: 34px;
+}
+.slider:before {
+position: absolute;
+content: "";
+height: 1.25rem;
+width: 1.25rem;
+left: 0.25rem;
+bottom: 0.25rem;
+background-color: white;
+transition: .4s;
+border-radius: 50%;
+}
+input:checked + .slider {
+background-color: #8E6FF7;
+}
+input:checked + .slider:before {
+transform: translateX(1.75rem);
+}
+.department-scroll::-webkit-scrollbar {
+height: 6px;
+}
+.department-scroll::-webkit-scrollbar-track {
+background: #f1f1f1;
+border-radius: 10px;
+}
+.department-scroll::-webkit-scrollbar-thumb {
+background: #d1d5db;
+border-radius: 10px;
+}
+.department-scroll::-webkit-scrollbar-thumb:hover {
+background: #8E6FF7;
+}
+</style>
+</head>
+<body class="bg-gray-50">
+<!-- Header -->
+<header class="bg-white shadow-sm fixed top-0 left-0 right-0 z-50">
+<div class="container mx-auto px-4 py-2">
+<div class="flex items-center justify-between">
+<!-- Logo -->
+<a href="#" class="flex items-center gap-2 text-2xl font-['architectural'] text-primary" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+<img src="https://media-hosting.imagekit.io/d6cdfe076f0a4de9/favicon.ico?Expires=1839342735&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=qikqGNJGlgOlcp5kSYmKnpohzxAaxrF7G5bXFumHDTy89K3fJPIVIF1aYG-Ko1repcnQl66EQzPE3GjYR3pNANiyNuDXedLGeLwYvBO11kG2Dda-nvjgbtBh2Qzys37BVlVXvpbBaDyATlWVWiwuAKvYm9VjSlKG6MQf0IlLfAGiWkC~un2UDpDhPe9VqPOXVqDlb9Fpc6J9gWiAhdpcJNgTKnVwJ5L~JrlH6Id~cK98TcOVlGngfNMOpsBz-DMp76hcKJ7jQZvxXzjuDWA16PJrqsMDtei82nQL8QEvNf9mfd0KyN7OsjHUUi7AE4r5jLUbY5c2DDYIo-8jabxH3w__" alt="Logo" class="w-8 h-8">
+Lekhanath City Hospital
+</a>
+<!-- Emergency Contact -->
+<div class="hidden md:flex items-center gap-2 text-red-600">
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-phone-fill ri-lg"></i>
+</div>
+<div>
+<p class="text-xs font-medium">Emergency 061-561177</p>
+
+</div>
+</div>
+<!-- Desktop Navigation -->
+<nav class="hidden lg:flex items-center gap-6">
+<a href="#" class="text-gray-900 hover:text-primary font-medium" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">Home</a>
+<a href="#about" class="text-gray-700 hover:text-primary">About</a>
+<a href="#departments" class="text-gray-700 hover:text-primary">Departments</a>
+<a href="#doctors" class="text-gray-700 hover:text-primary">Doctors</a>
+<a href="#services" class="text-gray-700 hover:text-primary">Services</a>
+<a href="#news" class="text-gray-700 hover:text-primary">News</a>
+<a href="#contact" class="text-gray-700 hover:text-primary">Contact</a>
+</nav>
+<!-- Mobile Menu Button -->
+<button class="lg:hidden w-10 h-10 flex items-center justify-center text-gray-700" id="mobileMenuBtn">
+<i class="ri-menu-line ri-lg"></i>
+</button>
+</div>
+</div>
+<!-- Mobile Navigation -->
+<div class="lg:hidden hidden bg-white shadow-lg absolute w-full" id="mobileMenu">
+<div class="container mx-auto px-4 py-3 flex flex-col gap-3">
+<a href="#" class="text-gray-900 hover:text-primary font-medium py-2 border-b border-gray-100" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); mobileMenu.classList.add('hidden');">Home</a>
+<a href="#about" class="text-gray-700 hover:text-primary py-2 border-b border-gray-100">About</a>
+<a href="#departments" class="text-gray-700 hover:text-primary py-2 border-b border-gray-100">Departments</a>
+<a href="#doctors" class="text-gray-700 hover:text-primary py-2 border-b border-gray-100">Doctors</a>
+<a href="#services" class="text-gray-700 hover:text-primary py-2 border-b border-gray-100">Services</a>
+<a href="#news" class="text-gray-700 hover:text-primary py-2 border-b border-gray-100">News</a>
+<a href="#contact" class="text-gray-700 hover:text-primary py-2 border-b border-gray-100">Contact</a>
+<div class="flex items-center gap-2 text-red-600 py-2 border-b border-gray-100">
+<div class="w-8 h-8 flex items-center justify-center">
+<i class="ri-phone-fill ri-lg"></i>
+</div>
+<div>
+<p class="text-xs font-medium">Emergency</p>
+<p class="text-sm font-bold">+977 61-561177</p>
+</div>
+</div>
+<a href="#appointment" class="bg-primary text-white px-4 py-2 !rounded-button font-medium text-center whitespace-nowrap hover:bg-opacity-90 transition">Book Appointment</a>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<section class="pt-16 relative bg-gray-100 overflow-hidden" style="background-image: url('https://readdy.ai/api/search-image?query=Modern%20hospital%20building%20exterior%20with%20clean%20design%2C%20blue%20glass%20windows%2C%20surrounded%20by%20green%20landscape%2C%20professional%20healthcare%20facility%2C%20soft%20lighting%2C%20clear%20blue%20sky%2C%20high-quality%20architectural%20photography%2C%20Pokhara%20Nepal%20mountains%20in%20background&width=1920&height=800&seq=1&orientation=landscape'); background-size: cover; background-position: center;">
+<div class="absolute inset-0 bg-gradient-to-r from-white/80 via-white/50 to-transparent"></div>
+<div class="container mx-auto px-4 py-16 md:py-24 relative">
+<div class="w-full md:w-1/2 lg:w-5/12">
+<h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Your Health Is Our Priority</h1>
+<p class="text-gray-700 text-lg mb-8">Lekhanath City Hospital provides comprehensive healthcare services with cutting-edge technology and compassionate care. Our team of experienced medical professionals is dedicated to your wellbeing.</p>
+<div class="flex flex-wrap gap-4">
+<a href="#appointment" class="bg-primary text-white px-6 py-3 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition flex items-center gap-2">
+<div class="w-5 h-5 flex items-center justify-center">
+<i class="ri-calendar-line"></i>
+</div>
+Book Appointment
+</a>
+<a href="#doctors" class="bg-white text-primary border border-primary px-6 py-3 !rounded-button font-medium whitespace-nowrap hover:bg-gray-50 transition flex items-center gap-2">
+<div class="w-5 h-5 flex items-center justify-center">
+<i class="ri-user-search-line"></i>
+</div>
+Find a Doctor
+</a>
+</div>
+<</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Key Services Section -->
+<section id="services" class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 mb-3">Our Key Services</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">We provide comprehensive healthcare services to meet all your medical needs with state-of-the-art facilities and experienced professionals.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+<!-- Service 1 -->
+<div class="bg-rose-50 p-6 rounded-lg hover:shadow-lg transition group">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-heart-pulse-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Emergency Care</h3>
+<p class="text-gray-600 mb-4">24/7 emergency services with advanced life support equipment and specialized medical team to handle critical situations.</p>
+<a href="#emergency-care" class="text-primary font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
+Learn More
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Service 2 -->
+<div class="bg-sky-50 p-6 rounded-lg hover:shadow-lg transition group">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-test-tube-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Laboratory Services</h3>
+<p class="text-gray-600 mb-4">Comprehensive diagnostic laboratory with advanced equipment for accurate and timely test results.</p>
+<a href="#laboratory" class="text-primary font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
+Learn More
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Service 3 -->
+<div class="bg-violet-50 p-6 rounded-lg hover:shadow-lg transition group">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-microscope-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Imaging & Radiology</h3>
+<p class="text-gray-600 mb-4">State-of-the-art imaging services including X-ray, CT scan, MRI, and ultrasound with expert radiologists.</p>
+<a href="#radiology" class="text-primary font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
+Learn More
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Service 4 -->
+<div class="bg-emerald-50 p-6 rounded-lg hover:shadow-lg transition group">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-medicine-bottle-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Pharmacy</h3>
+<p class="text-gray-600 mb-4">24-hour pharmacy service with a wide range of medications and experienced pharmacists to provide guidance.</p>
+<a href="#pharmacy" class="text-primary font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
+Learn More
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Service 5 -->
+<div class="bg-amber-50 p-6 rounded-lg hover:shadow-lg transition group">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-hospital-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Inpatient Services</h3>
+<p class="text-gray-600 mb-4">Comfortable rooms with 24/7 nursing care, modern amenities, and personalized treatment plans for admitted patients.</p>
+<a href="#inpatient" class="text-primary font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
+Learn More
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Service 6 -->
+<div class="bg-cyan-50 p-6 rounded-lg hover:shadow-lg transition group">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-ambulance-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Ambulance Service</h3>
+<p class="text-gray-600 mb-4">Well-equipped ambulances with trained paramedics available 24/7 for emergency transportation and medical support.</p>
+<a href="#ambulance" class="text-primary font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
+Learn More
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Service 7 -->
+<div class="bg-indigo-50 p-6 rounded-lg hover:shadow-lg transition group">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-psychotherapy-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Mental Health</h3>
+<p class="text-gray-600 mb-4">Comprehensive mental health services including counseling, therapy, and psychiatric care with experienced professionals.</p>
+<a href="#mental-health" class="text-primary font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
+Learn More
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Service 8 -->
+<div class="bg-fuchsia-50 p-6 rounded-lg hover:shadow-lg transition group">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-heart-2-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Cardiac Care</h3>
+<p class="text-gray-600 mb-4">Specialized cardiac care unit with advanced monitoring systems and experienced cardiologists available 24/7.</p>
+<a href="#cardiac" class="text-primary font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
+Learn More
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Service 9 -->
+<div class="bg-teal-50 p-6 rounded-lg hover:shadow-lg transition group">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-dossier-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Health Checkup</h3>
+<p class="text-gray-600 mb-4">Comprehensive health screening packages with detailed medical reports and professional consultation.</p>
+<a href="#health-checkup" class="text-primary font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
+Learn More
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Service 10 -->
+<div class="bg-orange-50 p-6 rounded-lg hover:shadow-lg transition group">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-nurse-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Home Care</h3>
+<p class="text-gray-600 mb-4">Professional medical care services at home including nursing care, physiotherapy, and medical equipment support.</p>
+<a href="#home-care" class="text-primary font-medium flex items-center gap-1 group-hover:gap-2 transition-all">
+Learn More
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section id="about" class="py-16 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="flex flex-col lg:flex-row items-center gap-8">
+<div class="w-full lg:w-1/2">
+<img src="https://readdy.ai/api/search-image?query=Modern%20hospital%20building%20in%20Pokhara%20Nepal%20with%20mountains%20in%20background%2C%20clean%20architecture%2C%20professional%20healthcare%20facility%2C%20welcoming%20entrance%2C%20medical%20staff%20visible%2C%20sunny%20day%2C%20high-quality%20architectural%20photography&width=600&height=500&seq=2&orientation=landscape" alt="Lekhanath City Hospital" class="rounded-lg w-full h-auto object-cover shadow-lg">
+</div>
+<div class="w-full lg:w-1/2">
+<h2 class="text-3xl font-bold text-gray-900 mb-4">About Lekhanath City Hospital</h2>
+<p class="text-gray-600 mb-6">Established in 2010, Lekhanath City Hospital has been providing quality healthcare services to the residents of Pokhara and surrounding areas. Our state-of-the-art facility is equipped with modern medical technology and staffed by experienced healthcare professionals dedicated to delivering compassionate care.</p>
+<p class="text-gray-600 mb-8">We are committed to our mission of improving the health and wellbeing of the communities we serve through excellence in healthcare delivery, education, and research.</p>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+<div class="bg-white p-4 rounded-lg text-center shadow-sm">
+<div class="text-3xl font-bold text-primary mb-1">15+</div>
+<div class="text-gray-600 text-sm">Years of Service</div>
+</div>
+<div class="bg-white p-4 rounded-lg text-center shadow-sm">
+<div class="text-3xl font-bold text-primary mb-1">50+</div>
+<div class="text-gray-600 text-sm">Specialist Doctors</div>
+</div>
+<div class="bg-white p-4 rounded-lg text-center shadow-sm">
+<div class="text-3xl font-bold text-primary mb-1">100+</div>
+<div class="text-gray-600 text-sm">Hospital Beds</div>
+</div>
+<div class="bg-white p-4 rounded-lg text-center shadow-sm">
+<div class="text-3xl font-bold text-primary mb-1">24/7</div>
+<div class="text-gray-600 text-sm">Emergency Care</div>
+</div>
+</div>
+<a href="#" class="bg-primary text-white px-6 py-3 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition inline-block">Learn More About Us</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Departments Section -->
+<section id="departments" class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 mb-3">Our Departments</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Specialized departments staffed by experienced medical professionals to provide comprehensive healthcare services.</p>
+</div>
+<div class="relative">
+<div class="flex items-center">
+<button id="slideLeft" class="absolute left-0 z-10 bg-white/80 hover:bg-white text-gray-700 p-2 rounded-full shadow-lg">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-arrow-left-s-line ri-lg"></i>
+</div>
+</button>
+<div class="department-scroll flex gap-6 overflow-x-auto pb-4 px-8 scroll-smooth" style="scroll-behavior: smooth;">
+<!-- Department 1 -->
+<div class="bg-rose-50 rounded-lg p-6 min-w-[280px] max-w-[280px] hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-heart-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Cardiology</h3>
+<p class="text-gray-600 mb-4">Comprehensive cardiac care with advanced diagnostic and treatment facilities for heart-related conditions.</p>
+<a href="#departments" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+View Details
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Department 2 -->
+<div class="bg-gray-50 rounded-lg p-6 min-w-[280px] max-w-[280px] hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-mental-health-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Neurology</h3>
+<p class="text-gray-600 mb-4">Specialized care for disorders of the brain, spinal cord, and nervous system with modern diagnostic tools.</p>
+<a href="#departments" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+View Details
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Department 3 -->
+<div class="bg-gray-50 rounded-lg p-6 min-w-[280px] max-w-[280px] hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-parent-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Pediatrics</h3>
+<p class="text-gray-600 mb-4">Comprehensive healthcare for infants, children, and adolescents in a child-friendly environment.</p>
+<a href="#departments" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+View Details
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Department 4 -->
+<div class="bg-gray-50 rounded-lg p-6 min-w-[280px] max-w-[280px] hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-women-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Gynecology</h3>
+<p class="text-gray-600 mb-4">Specialized care for women's health issues with a focus on reproductive health and wellness.</p>
+<a href="#departments" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+View Details
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Department 5 -->
+<div class="bg-gray-50 rounded-lg p-6 min-w-[280px] max-w-[280px] hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-surgical-mask-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Surgery</h3>
+<p class="text-gray-600 mb-4">Advanced surgical procedures with state-of-the-art operation theaters and experienced surgeons.</p>
+<a href="#departments" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+View Details
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Department 6 -->
+<div class="bg-sky-50 rounded-lg p-6 min-w-[280px] max-w-[280px] hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-eye-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Ophthalmology</h3>
+<p class="text-gray-600 mb-4">Comprehensive eye care services with modern diagnostic and treatment facilities for all eye conditions.</p>
+<a href="#departments" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+View Details
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Department 7 -->
+<div class="bg-amber-50 rounded-lg p-6 min-w-[280px] max-w-[280px] hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-psychotherapy-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Psychiatry</h3>
+<p class="text-gray-600 mb-4">Expert mental health care with comprehensive psychological assessment and treatment services.</p>
+<a href="#departments" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+View Details
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Department 8 -->
+<div class="bg-emerald-50 rounded-lg p-6 min-w-[280px] max-w-[280px] hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-stethoscope-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Internal Medicine</h3>
+<p class="text-gray-600 mb-4">Comprehensive care for adult diseases with focus on diagnosis and non-surgical treatments.</p>
+<a href="#departments" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+View Details
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Department 9 -->
+<div class="bg-purple-50 rounded-lg p-6 min-w-[280px] max-w-[280px] hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-bone-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Orthopedics</h3>
+<p class="text-gray-600 mb-4">Specialized care for bone and joint conditions with advanced surgical and rehabilitation facilities.</p>
+<a href="#departments" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+View Details
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Department 10 -->
+<div class="bg-indigo-50 rounded-lg p-6 min-w-[280px] max-w-[280px] hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-lungs-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Pulmonology</h3>
+<p class="text-gray-600 mb-4">Expert care for respiratory conditions with advanced diagnostic and treatment facilities.</p>
+<a href="#departments" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+View Details
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Department 11 -->
+<div class="bg-teal-50 rounded-lg p-6 min-w-[280px] max-w-[280px] hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-capsule-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Endocrinology</h3>
+<p class="text-gray-600 mb-4">Specialized care for hormonal disorders and metabolic conditions with modern treatment approaches.</p>
+<a href="#departments" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+View Details
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Department 12 -->
+<div class="bg-orange-50 rounded-lg p-6 min-w-[280px] max-w-[280px] hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-microscope-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Dermatology</h3>
+<p class="text-gray-600 mb-4">Comprehensive skin care services with advanced diagnostic and therapeutic procedures.</p>
+<a href="#departments" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+View Details
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Department 13 -->
+<div class="bg-cyan-50 rounded-lg p-6 min-w-[280px] max-w-[280px] hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-heart-pulse-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Nephrology</h3>
+<p class="text-gray-600 mb-4">Specialized care for kidney diseases with modern dialysis facilities and treatment options.</p>
+<a href="#departments" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+View Details
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+<!-- Department 14 -->
+<div class="bg-fuchsia-50 rounded-lg p-6 min-w-[280px] max-w-[280px] hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-mental-health-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Oncology</h3>
+<p class="text-gray-600 mb-4">Comprehensive cancer care with advanced treatment modalities and supportive care services.</p>
+<a href="#departments" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+View Details
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+</div>
+<button id="slideRight" class="absolute right-0 z-10 bg-white/80 hover:bg-white text-gray-700 p-2 rounded-full shadow-lg">
+<div class="w-6 h-6 flex items-center justify-center">
+<i class="ri-arrow-right-s-line ri-lg"></i>
+</div>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Doctors Section -->
+<section id="doctors" class="py-16 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 mb-3">Our Specialist Doctors</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Meet our team of experienced and dedicated medical professionals committed to providing you with the best healthcare.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 perspective-1000">
+<!-- Original 4 doctors remain the same -->
+<!-- Doctor 5 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition group transform hover:scale-105 hover:rotate-y-12 duration-300">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20middle-aged%20Nepali%20male%20doctor%20wearing%20white%20coat%20and%20stethoscope%2C%20confident%20pose%2C%20neutral%20background%2C%20high-quality%20medical%20professional%20headshot%2C%20warm%20smile%2C%20trustworthy%20appearance&width=400&height=400&seq=13&orientation=portrait" alt="Dr. Sunil Karki" class="w-full h-64 object-cover object-top">
+<div class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="text-white text-center px-4">Dr. Karki is a renowned orthopedic surgeon specializing in joint replacement surgeries. He has successfully performed over 2000 surgeries in his career.</p>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-semibold text-gray-900">Dr. Sunil Karki</h3>
+<p class="text-primary mb-2">Orthopedic Surgeon</p>
+<p class="text-gray-600 text-sm mb-4">MS Orthopedics • 18 Years Experience</p>
+<a href="#appointment" class="bg-primary text-white w-full py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition text-center block">Book Appointment</a>
+</div>
+</div>
+<!-- Doctor 6 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition group transform hover:scale-105 hover:rotate-y-12 duration-300">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20young%20Nepali%20female%20doctor%20wearing%20white%20coat%20and%20stethoscope%2C%20confident%20pose%2C%20neutral%20background%2C%20high-quality%20medical%20professional%20headshot%2C%20warm%20smile%2C%20trustworthy%20appearance&width=400&height=400&seq=14&orientation=portrait" alt="Dr. Maya Shrestha" class="w-full h-64 object-cover object-top">
+<div class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="text-white text-center px-4">Dr. Shrestha is an experienced dermatologist known for her expertise in advanced skincare treatments and cosmetic procedures.</p>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-semibold text-gray-900">Dr. Maya Shrestha</h3>
+<p class="text-primary mb-2">Dermatologist</p>
+<p class="text-gray-600 text-sm mb-4">MD Dermatology • 9 Years Experience</p>
+<a href="#appointment" class="bg-primary text-white w-full py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition text-center block">Book Appointment</a>
+</div>
+</div>
+<!-- Doctor 7 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition group transform hover:scale-105 hover:rotate-y-12 duration-300">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20middle-aged%20Nepali%20male%20doctor%20wearing%20white%20coat%20and%20stethoscope%2C%20confident%20pose%2C%20neutral%20background%2C%20high-quality%20medical%20professional%20headshot%2C%20warm%20smile%2C%20trustworthy%20appearance&width=400&height=400&seq=15&orientation=portrait" alt="Dr. Bikram Pandey" class="w-full h-64 object-cover object-top">
+<div class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="text-white text-center px-4">Dr. Pandey is a highly skilled ophthalmologist specializing in retinal surgery and advanced eye care procedures.</p>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-semibold text-gray-900">Dr. Bikram Pandey</h3>
+<p class="text-primary mb-2">Ophthalmologist</p>
+<p class="text-gray-600 text-sm mb-4">MD Ophthalmology • 14 Years Experience</p>
+<a href="#appointment" class="bg-primary text-white w-full py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition text-center block">Book Appointment</a>
+</div>
+</div>
+<!-- Doctor 8 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition group transform hover:scale-105 hover:rotate-y-12 duration-300">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20middle-aged%20Nepali%20female%20doctor%20wearing%20white%20coat%20and%20stethoscope%2C%20confident%20pose%2C%20neutral%20background%2C%20high-quality%20medical%20professional%20headshot%2C%20warm%20smile%2C%20trustworthy%20appearance&width=400&height=400&seq=16&orientation=portrait" alt="Dr. Sabina Maharjan" class="w-full h-64 object-cover object-top">
+<div class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="text-white text-center px-4">Dr. Maharjan is a respected psychiatrist with extensive experience in treating mental health disorders and providing psychological support.</p>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-semibold text-gray-900">Dr. Sabina Maharjan</h3>
+<p class="text-primary mb-2">Psychiatrist</p>
+<p class="text-gray-600 text-sm mb-4">MD Psychiatry • 11 Years Experience</p>
+<a href="#appointment" class="bg-primary text-white w-full py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition text-center block">Book Appointment</a>
+</div>
+</div>
+<!-- Doctor 9 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition group transform hover:scale-105 hover:rotate-y-12 duration-300">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20middle-aged%20Nepali%20male%20doctor%20wearing%20white%20coat%20and%20stethoscope%2C%20confident%20pose%2C%20neutral%20background%2C%20high-quality%20medical%20professional%20headshot%2C%20warm%20smile%2C%20trustworthy%20appearance&width=400&height=400&seq=17&orientation=portrait" alt="Dr. Ramesh Bhattarai" class="w-full h-64 object-cover object-top">
+<div class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="text-white text-center px-4">Dr. Bhattarai is an experienced pulmonologist specializing in respiratory diseases and sleep disorders.</p>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-semibold text-gray-900">Dr. Ramesh Bhattarai</h3>
+<p class="text-primary mb-2">Pulmonologist</p>
+<p class="text-gray-600 text-sm mb-4">MD Pulmonology • 13 Years Experience</p>
+<a href="#appointment" class="bg-primary text-white w-full py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition text-center block">Book Appointment</a>
+</div>
+</div>
+<!-- Doctor 10 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition group transform hover:scale-105 hover:rotate-y-12 duration-300">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20young%20Nepali%20female%20doctor%20wearing%20white%20coat%20and%20stethoscope%2C%20confident%20pose%2C%20neutral%20background%2C%20high-quality%20medical%20professional%20headshot%2C%20warm%20smile%2C%20trustworthy%20appearance&width=400&height=400&seq=18&orientation=portrait" alt="Dr. Anjali Rai" class="w-full h-64 object-cover object-top">
+<div class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="text-white text-center px-4">Dr. Rai is a skilled endocrinologist specializing in diabetes management and thyroid disorders.</p>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-semibold text-gray-900">Dr. Anjali Rai</h3>
+<p class="text-primary mb-2">Endocrinologist</p>
+<p class="text-gray-600 text-sm mb-4">MD Endocrinology • 10 Years Experience</p>
+<a href="#appointment" class="bg-primary text-white w-full py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition text-center block">Book Appointment</a>
+</div>
+</div>
+<!-- Doctor 11 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition group transform hover:scale-105 hover:rotate-y-12 duration-300">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20middle-aged%20Nepali%20male%20doctor%20wearing%20white%20coat%20and%20stethoscope%2C%20confident%20pose%2C%20neutral%20background%2C%20high-quality%20medical%20professional%20headshot%2C%20warm%20smile%2C%20trustworthy%20appearance&width=400&height=400&seq=19&orientation=portrait" alt="Dr. Dipak Tamang" class="w-full h-64 object-cover object-top">
+<div class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="text-white text-center px-4">Dr. Tamang is a renowned gastroenterologist with expertise in advanced endoscopic procedures and digestive disorders.</p>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-semibold text-gray-900">Dr. Dipak Tamang</h3>
+<p class="text-primary mb-2">Gastroenterologist</p>
+<p class="text-gray-600 text-sm mb-4">MD Gastroenterology • 16 Years Experience</p>
+<a href="#appointment" class="bg-primary text-white w-full py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition text-center block">Book Appointment</a>
+</div>
+</div>
+<!-- Doctor 12 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition group transform hover:scale-105 hover:rotate-y-12 duration-300">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20middle-aged%20Nepali%20female%20doctor%20wearing%20white%20coat%20and%20stethoscope%2C%20confident%20pose%2C%20neutral%20background%2C%20high-quality%20medical%20professional%20headshot%2C%20warm%20smile%2C%20trustworthy%20appearance&width=400&height=400&seq=20&orientation=portrait" alt="Dr. Sunita Basnet" class="w-full h-64 object-cover object-top">
+<div class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="text-white text-center px-4">Dr. Basnet is an experienced nephrologist specializing in kidney diseases and dialysis treatment.</p>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-semibold text-gray-900">Dr. Sunita Basnet</h3>
+<p class="text-primary mb-2">Nephrologist</p>
+<p class="text-gray-600 text-sm mb-4">MD Nephrology • 12 Years Experience</p>
+<a href="#appointment" class="bg-primary text-white w-full py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition text-center block">Book Appointment</a>
+</div>
+</div>
+<!-- Doctor 13 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition group transform hover:scale-105 hover:rotate-y-12 duration-300">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20middle-aged%20Nepali%20male%20doctor%20wearing%20white%20coat%20and%20stethoscope%2C%20confident%20pose%2C%20neutral%20background%2C%20high-quality%20medical%20professional%20headshot%2C%20warm%20smile%2C%20trustworthy%20appearance&width=400&height=400&seq=21&orientation=portrait" alt="Dr. Kamal Malla" class="w-full h-64 object-cover object-top">
+<div class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="text-white text-center px-4">Dr. Malla is a skilled oncologist with extensive experience in cancer treatment and chemotherapy management.</p>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-semibold text-gray-900">Dr. Kamal Malla</h3>
+<p class="text-primary mb-2">Oncologist</p>
+<p class="text-gray-600 text-sm mb-4">MD Oncology • 15 Years Experience</p>
+<a href="#appointment" class="bg-primary text-white w-full py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition text-center block">Book Appointment</a>
+</div>
+</div>
+<!-- Doctor 14 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition group transform hover:scale-105 hover:rotate-y-12 duration-300">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20young%20Nepali%20female%20doctor%20wearing%20white%20coat%20and%20stethoscope%2C%20confident%20pose%2C%20neutral%20background%2C%20high-quality%20medical%20professional%20headshot%2C%20warm%20smile%2C%20trustworthy%20appearance&width=400&height=400&seq=22&orientation=portrait" alt="Dr. Roshani Pradhan" class="w-full h-64 object-cover object-top">
+<div class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="text-white text-center px-4">Dr. Pradhan is a dedicated rheumatologist specializing in autoimmune diseases and joint disorders.</p>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-semibold text-gray-900">Dr. Roshani Pradhan</h3>
+<p class="text-primary mb-2">Rheumatologist</p>
+<p class="text-gray-600 text-sm mb-4">MD Rheumatology • 8 Years Experience</p>
+<a href="#appointment" class="bg-primary text-white w-full py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition text-center block">Book Appointment</a>
+</div>
+</div>
+<!-- Doctor 15 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition group transform hover:scale-105 hover:rotate-y-12 duration-300">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20middle-aged%20Nepali%20male%20doctor%20wearing%20white%20coat%20and%20stethoscope%2C%20confident%20pose%2C%20neutral%20background%2C%20high-quality%20medical%20professional%20headshot%2C%20warm%20smile%2C%20trustworthy%20appearance&width=400&height=400&seq=23&orientation=portrait" alt="Dr. Prakash Thapa" class="w-full h-64 object-cover object-top">
+<div class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="text-white text-center px-4">Dr. Thapa is a renowned urologist with expertise in minimally invasive urological surgeries and kidney stone treatment.</p>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-semibold text-gray-900">Dr. Prakash Thapa</h3>
+<p class="text-primary mb-2">Urologist</p>
+<p class="text-gray-600 text-sm mb-4">MD Urology • 14 Years Experience</p>
+<a href="#appointment" class="bg-primary text-white w-full py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition text-center block">Book Appointment</a>
+</div>
+</div>
+<!-- Doctor 16 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition group transform hover:scale-105 hover:rotate-y-12 duration-300">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20young%20Nepali%20female%20doctor%20wearing%20white%20coat%20and%20stethoscope%2C%20confident%20pose%2C%20neutral%20background%2C%20high-quality%20medical%20professional%20headshot%2C%20warm%20smile%2C%20trustworthy%20appearance&width=400&height=400&seq=24&orientation=portrait" alt="Dr. Anita Sharma" class="w-full h-64 object-cover object-top">
+<div class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="text-white text-center px-4">Dr. Sharma specializes in pediatric dentistry with a focus on preventive dental care and orthodontics for children.</p>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-semibold text-gray-900">Dr. Anita Sharma</h3>
+<p class="text-primary mb-2">Pediatric Dentist</p>
+<p class="text-gray-600 text-sm mb-4">MDS Pediatric Dentistry • 9 Years Experience</p>
+<a href="#appointment" class="bg-primary text-white w-full py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition text-center block">Book Appointment</a>
+</div>
+</div>
+<!-- Doctor 17 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition group transform hover:scale-105 hover:rotate-y-12 duration-300">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20middle-aged%20Nepali%20male%20doctor%20wearing%20white%20coat%20and%20stethoscope%2C%20confident%20pose%2C%20neutral%20background%2C%20high-quality%20medical%20professional%20headshot%2C%20warm%20smile%2C%20trustworthy%20appearance&width=400&height=400&seq=25&orientation=portrait" alt="Dr. Rajendra KC" class="w-full h-64 object-cover object-top">
+<div class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="text-white text-center px-4">Dr. KC is an experienced plastic surgeon specializing in reconstructive surgery and aesthetic procedures.</p>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-semibold text-gray-900">Dr. Rajendra KC</h3>
+<p class="text-primary mb-2">Plastic Surgeon</p>
+<p class="text-gray-600 text-sm mb-4">MD Plastic Surgery • 16 Years Experience</p>
+<a href="#appointment" class="bg-primary text-white w-full py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition text-center block">Book Appointment</a>
+</div>
+</div>
+<!-- Doctor 18 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition group transform hover:scale-105 hover:rotate-y-12 duration-300">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20young%20Nepali%20female%20doctor%20wearing%20white%20coat%20and%20stethoscope%2C%20confident%20pose%2C%20neutral%20background%2C%20high-quality%20medical%20professional%20headshot%2C%20warm%20smile%2C%20trustworthy%20appearance&width=400&height=400&seq=26&orientation=portrait" alt="Dr. Srijana Poudel" class="w-full h-64 object-cover object-top">
+<div class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="text-white text-center px-4">Dr. Poudel is a skilled ENT specialist with expertise in head and neck surgeries and hearing disorders.</p>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-semibold text-gray-900">Dr. Srijana Poudel</h3>
+<p class="text-primary mb-2">ENT Specialist</p>
+<p class="text-gray-600 text-sm mb-4">MD ENT • 11 Years Experience</p>
+<a href="#appointment" class="bg-primary text-white w-full py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition text-center block">Book Appointment</a>
+</div>
+</div>
+<!-- Doctor 19 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition group transform hover:scale-105 hover:rotate-y-12 duration-300">
+<div class="relative">
+<img src="https://readdy.ai/api/search-image?query=Professional%20portrait%20of%20a%20middle-aged%20Nepali%20male%20doctor%20wearing%20white%20coat%20and%20stethoscope%2C%20confident%20pose%2C%20neutral%20background%2C%20high-quality%20medical%20professional%20headshot%2C%20warm%20smile%2C%20trustworthy%20appearance&width=400&height=400&seq=27&orientation=portrait" alt="Dr. Binod Adhikari" class="w-full h-64 object-cover object-top">
+<div class="absolute inset-0 bg-primary/80 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+<p class="text-white text-center px-4">Dr. Adhikari is a renowned pain management specialist with expertise in chronic pain treatment and rehabilitation.</p>
+</div>
+</div>
+<div class="p-4">
+<h3 class="text-xl font-semibold text-gray-900">Dr. Binod Adhikari</h3>
+<p class="text-primary mb-2">Pain Management Specialist</p>
+<p class="text-gray-600 text-sm mb-4">MD Pain Medicine • 13 Years Experience</p>
+<a href="#appointment" class="bg-primary text-white w-full py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition text-center block">Book Appointment</a>
+</div>
+</div>
+</div>
+<div class="text-center mt-8">
+<a href="#doctors" class="bg-white text-primary border border-primary px-6 py-3 !rounded-button font-medium whitespace-nowrap hover:bg-gray-50 transition inline-block">View All Doctors</a>
+</div>
+</div>
+</section>
+<!-- Appointment Section -->
+<section id="appointment" class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="flex flex-col lg:flex-row gap-8">
+<div class="w-full lg:w-1/2">
+<h2 class="text-3xl font-bold text-gray-900 mb-3">Book an Appointment</h2>
+<p class="text-gray-600 mb-8">Schedule an appointment with our specialists. Fill out the form and our team will get back to you within 24 hours.</p>
+<form class="appointment-form space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label for="fullName" class="block text-gray-700 mb-2">Full Name</label>
+<input type="text" id="fullName" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="Enter your full name">
+</div>
+<div>
+<label for="phoneNumber" class="block text-gray-700 mb-2">Phone Number</label>
+<input type="tel" id="phoneNumber" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="Enter your phone number">
+</div>
+</div>
+<div>
+<label for="email" class="block text-gray-700 mb-2">Email Address</label>
+<input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="Enter your email address">
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label for="department" class="block text-gray-700 mb-2">Department</label>
+<div class="relative">
+<select id="department" class="w-full px-4 py-2 border border-gray-300 rounded appearance-none focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary pr-8">
+<option value="">Select Department</option>
+<option value="cardiology">Cardiology</option>
+<option value="neurology">Neurology</option>
+<option value="pediatrics">Pediatrics</option>
+<option value="gynecology">Gynecology</option>
+<option value="orthopedics">Orthopedics</option>
+<option value="ophthalmology">Ophthalmology</option>
+</select>
+<div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+<div class="w-4 h-4 flex items-center justify-center text-gray-500">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</div>
+</div>
+</div>
+<div>
+<label for="doctor" class="block text-gray-700 mb-2">Doctor</label>
+<div class="relative">
+<select id="doctor" class="w-full px-4 py-2 border border-gray-300 rounded appearance-none focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary pr-8">
+<option value="">Select Doctor</option>
+<option value="dr-sharma">Dr. Rajesh Sharma</option>
+<option value="dr-thapa">Dr. Sushma Thapa</option>
+<option value="dr-gurung">Dr. Anil Gurung</option>
+<option value="dr-poudel">Dr. Priya Poudel</option>
+</select>
+<div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+<div class="w-4 h-4 flex items-center justify-center text-gray-500">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label for="appointmentDate" class="block text-gray-700 mb-2">Preferred Date</label>
+<input type="date" id="appointmentDate" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary">
+</div>
+<div>
+<label for="appointmentTime" class="block text-gray-700 mb-2">Preferred Time</label>
+<div class="relative">
+<select id="appointmentTime" class="w-full px-4 py-2 border border-gray-300 rounded appearance-none focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary pr-8">
+<option value="">Select Time</option>
+<option value="morning">Morning (9:00 AM - 12:00 PM)</option>
+<option value="afternoon">Afternoon (1:00 PM - 4:00 PM)</option>
+<option value="evening">Evening (5:00 PM - 8:00 PM)</option>
+</select>
+<div class="absolute inset-y-0 right-0 flex items-center px-2 pointer-events-none">
+<div class="w-4 h-4 flex items-center justify-center text-gray-500">
+<i class="ri-arrow-down-s-line"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<label for="message" class="block text-gray-700 mb-2">Additional Information</label>
+<textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="Please provide any additional information about your condition"></textarea>
+</div>
+<div>
+<label class="custom-checkbox">
+<input type="checkbox">
+<span class="checkmark"></span>
+I agree to the terms and conditions and privacy policy
+</label>
+</div>
+<button type="submit" class="bg-primary text-white px-6 py-3 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition w-full md:w-auto">Book Appointment</button>
+</form>
+</div>
+<div class="w-full lg:w-1/2 bg-gray-50 rounded-lg p-6 md:p-8">
+<h3 class="text-2xl font-semibold text-gray-900 mb-6">Why Choose Us</h3>
+<div class="space-y-6">
+<div class="flex gap-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/10 text-primary rounded-full shrink-0">
+<i class="ri-user-star-line ri-lg"></i>
+</div>
+<div>
+<h4 class="text-lg font-medium text-gray-900 mb-1">Experienced Doctors</h4>
+<p class="text-gray-600">Our team consists of highly qualified and experienced medical professionals dedicated to providing the best care.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/10 text-primary rounded-full shrink-0">
+<i class="ri-24-hours-line ri-lg"></i>
+</div>
+<div>
+<h4 class="text-lg font-medium text-gray-900 mb-1">24/7 Services</h4>
+<p class="text-gray-600">We provide round-the-clock medical services to ensure that you receive care whenever you need it.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/10 text-primary rounded-full shrink-0">
+<i class="ri-hospital-line ri-lg"></i>
+</div>
+<div>
+<h4 class="text-lg font-medium text-gray-900 mb-1">Modern Facilities</h4>
+<p class="text-gray-600">Our hospital is equipped with state-of-the-art medical technology and facilities to provide the best treatment.</p>
+</div>
+</div>
+<div class="flex gap-4">
+<div class="w-12 h-12 flex items-center justify-center bg-primary/10 text-primary rounded-full shrink-0">
+<i class="ri-heart-pulse-line ri-lg"></i>
+</div>
+<div>
+<h4 class="text-lg font-medium text-gray-900 mb-1">Patient-Centered Care</h4>
+<p class="text-gray-600">We prioritize your comfort and well-being, ensuring personalized care throughout your treatment.</p>
+</div>
+</div>
+</div>
+<div class="mt-8 bg-white p-6 rounded-lg shadow-sm">
+<h4 class="text-lg font-medium text-gray-900 mb-4">Opening Hours</h4>
+<div class="space-y-3">
+<div class="flex justify-between">
+<span class="text-gray-600">Monday - Friday</span>
+<span class="font-medium text-gray-900">8:00 AM - 8:00 PM</span>
+</div>
+<div class="flex justify-between">
+<span class="text-gray-600">Saturday</span>
+<span class="font-medium text-gray-900">9:00 AM - 6:00 PM</span>
+</div>
+<div class="flex justify-between">
+<span class="text-gray-600">Sunday</span>
+<span class="font-medium text-gray-900">10:00 AM - 4:00 PM</span>
+</div>
+<div class="flex justify-between text-red-600 font-medium">
+<span>Emergency Services</span>
+<span>24/7</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- News Section -->
+<section id="news" class="py-16 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 mb-3">Latest News & Health Tips</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Stay updated with the latest news from our hospital and get valuable health tips from our experts.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- News 1 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+<img src="https://readdy.ai/api/search-image?query=Modern%20hospital%20vaccination%20camp%2C%20healthcare%20workers%20administering%20vaccines%20to%20patients%2C%20medical%20setting%2C%20professional%20environment%2C%20high-quality%20medical%20photography&width=400&height=250&seq=7&orientation=landscape" alt="Vaccination Drive" class="w-full h-48 object-cover">
+<div class="p-6">
+<div class="flex items-center gap-2 text-gray-500 text-sm mb-2">
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-calendar-line"></i>
+</div>
+<span>April 10, 2025</span>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Free Vaccination Drive for Children Under 5</h3>
+<p class="text-gray-600 mb-4">Lekhanath City Hospital is organizing a free vaccination drive for children under 5 years. The drive aims to ensure that all children in the community are protected against preventable diseases.</p>
+<a href="#news" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+Read More
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+</div>
+<!-- News 2 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+<img src="https://readdy.ai/api/search-image?query=Modern%20hospital%20diabetes%20awareness%20event%2C%20healthcare%20professionals%20educating%20patients%2C%20medical%20charts%20and%20displays%2C%20professional%20environment%2C%20high-quality%20medical%20photography&width=400&height=250&seq=8&orientation=landscape" alt="Diabetes Awareness" class="w-full h-48 object-cover">
+<div class="p-6">
+<div class="flex items-center gap-2 text-gray-500 text-sm mb-2">
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-calendar-line"></i>
+</div>
+<span>April 5, 2025</span>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Diabetes Awareness Program: Know Your Risk</h3>
+<p class="text-gray-600 mb-4">Join our diabetes awareness program to learn about risk factors, prevention strategies, and management techniques. Free blood sugar testing will be available for all participants.</p>
+<a href="#news" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+Read More
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+</div>
+<!-- News 3 -->
+<div class="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition">
+<img src="https://readdy.ai/api/search-image?query=Modern%20hospital%20doctor%20giving%20health%20talk%20to%20patients%2C%20medical%20professional%20presenting%20health%20information%2C%20professional%20environment%2C%20high-quality%20medical%20photography&width=400&height=250&seq=9&orientation=landscape" alt="Health Tips" class="w-full h-48 object-cover">
+<div class="p-6">
+<div class="flex items-center gap-2 text-gray-500 text-sm mb-2">
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-calendar-line"></i>
+</div>
+<span>March 28, 2025</span>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">5 Essential Tips for Maintaining Heart Health</h3>
+<p class="text-gray-600 mb-4">Our cardiologist, Dr. Rajesh Sharma, shares five essential tips for maintaining heart health and reducing the risk of cardiovascular diseases.</p>
+<a href="#news" class="text-primary font-medium flex items-center gap-1 hover:gap-2 transition-all">
+Read More
+<div class="w-4 h-4 flex items-center justify-center">
+<i class="ri-arrow-right-line"></i>
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="text-center mt-8">
+<a href="#news" class="bg-white text-primary border border-primary px-6 py-3 !rounded-button font-medium whitespace-nowrap hover:bg-gray-50 transition inline-block">View All News</a>
+</div>
+</div>
+</section>
+<!-- Testimonials Section -->
+<section class="py-16 bg-gray-50">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 mb-3">Patient Testimonials</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Hear what our patients say about their experience at Lekhanath City Hospital.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Testimonial 1 -->
+<div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+<div class="flex items-center gap-4 mb-4">
+<img src="https://readdy.ai/api/search-image?query=Portrait%20of%20a%20middle-aged%20Nepali%20woman%20smiling%20warmly%20at%20camera%2C%20natural%20lighting%2C%20professional%20headshot%2C%20genuine%20expression%2C%20traditional%20dress&width=100&height=100&seq=10&orientation=squarish" alt="Sarita Adhikari" class="w-16 h-16 rounded-full object-cover">
+<div>
+<h4 class="text-lg font-semibold text-gray-900">Sarita Adhikari</h4>
+<p class="text-gray-500">Cardiac Patient</p>
+</div>
+</div>
+<p class="text-gray-600 mb-4">"The care I received at Lekhanath City Hospital was exceptional. Dr. Sharma and his team were not only highly professional but also very compassionate. The facilities are modern and the staff is extremely supportive."</p>
+<div class="flex text-yellow-400">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+<div class="flex items-center gap-4 mb-4">
+<img src="https://readdy.ai/api/search-image?query=Portrait%20of%20a%20young%20Nepali%20man%20in%20business%20attire%20smiling%20confidently%20at%20camera%2C%20natural%20lighting%2C%20professional%20headshot%2C%20modern%20appearance&width=100&height=100&seq=11&orientation=squarish" alt="Binod Gurung" class="w-16 h-16 rounded-full object-cover">
+<div>
+<h4 class="text-lg font-semibold text-gray-900">Binod Gurung</h4>
+<p class="text-gray-500">Surgery Patient</p>
+</div>
+</div>
+<p class="text-gray-600 mb-4">"I underwent surgery at Lekhanath City Hospital and I'm thoroughly impressed with the quality of care. The surgical team was excellent, and the post-operative care was outstanding. I highly recommend this hospital."</p>
+<div class="flex text-yellow-400">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-half-fill"></i>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition">
+<div class="flex items-center gap-4 mb-4">
+<img src="https://readdy.ai/api/search-image?query=Portrait%20of%20a%20middle-aged%20Nepali%20woman%20in%20professional%20attire%20smiling%20warmly%20at%20camera%2C%20natural%20lighting%2C%20professional%20headshot%2C%20modern%20appearance&width=100&height=100&seq=12&orientation=squarish" alt="Prabha Shrestha" class="w-16 h-16 rounded-full object-cover">
+<div>
+<h4 class="text-lg font-semibold text-gray-900">Prabha Shrestha</h4>
+<p class="text-gray-500">Regular Patient</p>
+</div>
+</div>
+<p class="text-gray-600 mb-4">"The doctors and staff at Lekhanath City Hospital are amazing. They make you feel comfortable and well-cared for. The hospital is clean, modern, and well-maintained. I trust them completely with my health."</p>
+<div class="flex text-yellow-400">
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+<i class="ri-star-fill"></i>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Health Packages Section -->
+<section class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 mb-3">Health Packages</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Choose from our comprehensive health checkup packages designed for your specific needs.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Basic Package -->
+<div class="bg-red-50 rounded-lg p-6 hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-heart-pulse-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Basic Health Checkup</h3>
+<p class="text-gray-600 mb-4">Essential health screening package for routine checkup.</p>
+<div class="space-y-2 mb-6">
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Complete Blood Count</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Blood Sugar Test</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Lipid Profile</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Urine Analysis</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Doctor Consultation</span>
+</div>
+</div>
+<div class="text-2xl font-bold text-gray-900 mb-6">NPR 2,500/-</div>
+<a href="#appointment" class="bg-primary text-white px-6 py-3 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition w-full text-center block">Book Now</a>
+</div>
+<!-- Comprehensive Package -->
+<div class="bg-blue-50 rounded-lg p-6 hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-health-book-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Comprehensive Health Checkup</h3>
+<p class="text-gray-600 mb-4">Detailed health screening with additional tests.</p>
+<div class="space-y-2 mb-6">
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">All Basic Package Tests</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Thyroid Profile</span>
+</div>
+
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Liver Function Test</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Kidney Function Test</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">ECG</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Chest X-Ray</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Specialist Consultation</span>
+</div>
+</div>
+<div class="text-2xl font-bold text-gray-900 mb-6">NPR 5,500/-</div>
+<a href="#appointment" class="bg-green text-white px-6 py-3 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition w-full text-center block">Book Now</a>
+</div>
+<!-- Executive Package -->
+<div class="bg-green-50 rounded-lg p-6 hover:shadow-md transition">
+<div class="w-14 h-14 flex items-center justify-center bg-primary/10 text-primary rounded-lg mb-4">
+<i class="ri-hospital-line ri-2x"></i>
+</div>
+<h3 class="text-xl font-semibold text-gray-900 mb-2">Executive Health Checkup</h3>
+<p class="text-gray-600 mb-4">Premium health screening with complete body checkup.</p>
+<div class="space-y-2 mb-6">
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">All Comprehensive Package Tests</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Vitamin D & B12</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">PSA (Male) / PAP Smear (Female)</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Ultrasound Abdomen</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">2D Echo</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Stress Test</span>
+</div>
+<div class="flex items-center gap-2">
+<div class="w-4 h-4 flex items-center justify-center text-primary">
+<i class="ri-checkbox-circle-line"></i>
+</div>
+<span class="text-gray-600">Multiple Specialist Consultations</span>
+</div>
+</div>
+<div class="text-2xl font-bold text-gray-900 mb-6">NPR 8,500/-</div>
+<a href="#appointment" class="bg-primary text-white px-6 py-3 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition w-full text-center block">Book Now</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section id="contact" class="py-16 bg-white">
+<div class="container mx-auto px-4">
+<div class="text-center mb-12">
+<h2 class="text-3xl font-bold text-gray-900 mb-3">Contact Us</h2>
+<p class="text-gray-600 max-w-2xl mx-auto">Get in touch with us for any inquiries, feedback, or assistance. We're here to help you.</p>
+</div>
+<div class="flex flex-col lg:flex-row gap-8">
+<div class="w-full lg:w-1/2">
+<div class="bg-gray-50 overflow-hidden h-full">
+<div id="locationMap" class="h-[600px] w-full relative">
+<iframe src=https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.715437053959!2d84.0363027!3d28.1844512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399597278df94115%3A0x2ced98c75a78dadd!2sApollo%20Dental%20Care!5e0!3m2!1sen!2snp!4v1716456781231!5m2!1sen!2snp" " width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-primary text-white px-4 py-2 rounded-full shadow-lg">
+</div>
+</div>
+<div class="p-6">
+<h3 class="text-xl font-semibold text-gray-900 mb-4">Our Location</h3>
+<div class="space-y-4">
+<div class="flex gap-3">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 text-primary rounded-full shrink-0">
+<i class="ri-map-pin-line ri-lg"></i>
+</div>
+<div>
+<h4 class="font-medium text-gray-900">Address</h4>
+<p class="text-gray-600">Lekhanarh City Hospital Pvt. Ltd., Pokhara-26, Kaski, Nepal</p>
+</div>
+</div>
+<div class="flex gap-3">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 text-primary rounded-full shrink-0">
+<i class="ri-phone-line ri-lg"></i>
+</div>
+<div>
+<h4 class="font-medium text-gray-900">Phone</h4>
+<p class="text-gray-600">+977 61-561177 (Reception)</p>
+<p class="text-gray-600">+977 61-561188 (Emergency)</p>
+</div>
+</div>
+<div class="flex gap-3">
+<div class="w-10 h-10 flex items-center justify-center bg-primary/10 text-primary rounded-full shrink-0">
+<i class="ri-mail-line ri-lg"></i>
+</div>
+<div>
+<h4 class="font-medium text-gray-900">Email</h4>
+<p class="text-gray-600">info@lekhanathhospital.com.np</p>
+<p class="text-gray-600">appointment@lekhanathhospital.com.np</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full lg:w-1/2">
+<div class="bg-yellow-50 rounded-lg p-6 md:p-8 h-full">
+<h3 class="text-xl font-semibold text-gray-900 mb-6">Send Us a Message</h3>
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label for="contactName" class="block text-gray-700 mb-2">Full Name</label>
+<input type="text" id="contactName" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="Enter your full name">
+</div>
+<div>
+<label for="contactEmail" class="block text-gray-700 mb-2">Email Address</label>
+<input type="email" id="contactEmail" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="Enter your email address">
+</div>
+</div>
+<div>
+<label for="contactSubject" class="block text-gray-700 mb-2">Subject</label>
+<input type="text" id="contactSubject" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="Enter subject">
+</div>
+<div>
+<label for="contactMessage" class="block text-gray-700 mb-2">Message</label>
+<textarea id="contactMessage" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary" placeholder="Enter your message"></textarea>
+</div>
+<button type="submit" class="bg-primary text-white px-6 py-3 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition">Send Message</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-secondary text-white pt-16 pb-6">
+<div class="container mx-auto px-4">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+<!-- Column 1: About -->
+<div>
+<h3 class="text-xl font-semibold mb-4">About Us</h3>
+<p class="text-gray-300 mb-4">Lekhanath City Hospital is a premier healthcare facility in Pokhara, Nepal, dedicated to providing quality healthcare services with compassion and excellence.</p>
+<div class="flex gap-4">
+<a href="https://facebook.com" target="_blank" class="w-8 h-8 flex items-center justify-center bg-white/10 hover:bg-primary rounded-full transition">
+<i class="ri-facebook-fill"></i>
+</a>
+<a href="https://twitter.com" target="_blank" class="w-8 h-8 flex items-center justify-center bg-white/10 hover:bg-primary rounded-full transition">
+<i class="ri-twitter-x-fill"></i>
+</a>
+<a href="https://instagram.com" target="_blank" class="w-8 h-8 flex items-center justify-center bg-white/10 hover:bg-primary rounded-full transition">
+<i class="ri-instagram-fill"></i>
+</a>
+<a href="https://youtube.com" target="_blank" class="w-8 h-8 flex items-center justify-center bg-white/10 hover:bg-primary rounded-full transition">
+<i class="ri-youtube-fill"></i>
+</a>
+</div>
+</div>
+<!-- Column 2: Quick Links -->
+<div>
+<h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+<ul class="space-y-2">
+<li><a href="#" class="text-gray-300 hover:text-white transition">Home</a></li>
+<li><a href="#about" class="text-gray-300 hover:text-white transition">About Us</a></li>
+<li><a href="#departments" class="text-gray-300 hover:text-white transition">Departments</a></li>
+<li><a href="#doctors" class="text-gray-300 hover:text-white transition">Doctors</a></li>
+<li><a href="#appointment" class="text-gray-300 hover:text-white transition">Appointments</a></li>
+<li><a href="#news" class="text-gray-300 hover:text-white transition">News & Updates</a></li>
+<li><a href="#contact" class="text-gray-300 hover:text-white transition">Contact Us</a></li>
+</ul>
+</div>
+<!-- Column 3: Opening Hours -->
+<div>
+<h3 class="text-xl font-semibold mb-4">Opening Hours</h3>
+<ul class="space-y-3">
+<li class="flex justify-between">
+<span class="text-gray-300">Monday - Friday</span>
+<span>8:00 AM - 8:00 PM</span>
+</li>
+<li class="flex justify-between">
+<span class="text-gray-300">Saturday</span>
+<span>9:00 AM - 6:00 PM</span>
+</li>
+<li class="flex justify-between">
+<span class="text-gray-300">Sunday</span>
+<span>10:00 AM - 4:00 PM</span>
+</li>
+<li class="flex justify-between font-medium">
+<span class="text-gray-300">Emergency Services</span>
+<span>24/7</span>
+</li>
+</ul>
+</div>
+<!-- Column 4: Newsletter -->
+<div>
+<h3 class="text-xl font-semibold mb-4">Newsletter</h3>
+<p class="text-gray-300 mb-4">Subscribe to our newsletter to receive the latest updates and health tips.</p>
+<form class="space-y-4">
+<div class="relative">
+<input type="email" placeholder="Enter your email" class="w-full px-4 py-2 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary">
+</div>
+<button type="submit" class="bg-primary text-white px-4 py-2 !rounded-button font-medium whitespace-nowrap hover:bg-opacity-90 transition w-full">Subscribe</button>
+</form>
+</div>
+</div>
+<div class="pt-6 border-t border-white/10 text-center text-gray-400 text-sm">
+<p>&copy; 2025 Lekhanath City Hospital. All rights reserved.</p>
+<p class="mt-1">Developed by <a href="https://ramrajabastakoti.com.np" target="_blank" class="text-primary hover:text-white transition">Ramraja</a></p>
+</div>
+</div>
+</footer>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+// Get current location
+if (navigator.geolocation) {
+navigator.geolocation.getCurrentPosition(
+function(position) {
+const currentLocation = document.getElementById('currentLocation');
+if(currentLocation) {
+currentLocation.classList.remove('hidden');
+}
+},
+function(error) {
+console.error("Error getting location:", error);
+const locationError = document.createElement('div');
+locationError.className = 'absolute top-4 left-4 bg-red-500 text-white px-4 py-2 rounded shadow-lg';
+locationError.innerHTML = 'Unable to get your location';
+document.getElementById('locationMap').appendChild(locationError);
+}
+);
+}
+// Department slider functionality
+const slideContainer = document.querySelector('.department-scroll');
+const slideLeft = document.getElementById('slideLeft');
+const slideRight = document.getElementById('slideRight');
+slideLeft.addEventListener('click', () => {
+slideContainer.scrollLeft -= 300;
+});
+slideRight.addEventListener('click', () => {
+slideContainer.scrollLeft += 300;
+});
+// Hide/show scroll buttons based on scroll position
+slideContainer.addEventListener('scroll', () => {
+const isAtStart = slideContainer.scrollLeft === 0;
+const isAtEnd = slideContainer.scrollLeft >= (slideContainer.scrollWidth - slideContainer.clientWidth);
+slideLeft.style.opacity = isAtStart ? '0' : '1';
+slideRight.style.opacity = isAtEnd ? '0' : '1';
+slideLeft.style.visibility = isAtStart ? 'hidden' : 'visible';
+slideRight.style.visibility = isAtEnd ? 'hidden' : 'visible';
+});
+// Trigger scroll event initially to set button states
+slideContainer.dispatchEvent(new Event('scroll'));
+// Mobile Menu Toggle
+const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+const mobileMenu = document.getElementById('mobileMenu');
+mobileMenuBtn.addEventListener('click', function() {
+mobileMenu.classList.toggle('hidden');
+});
+// Create modal for service details
+const modal = document.createElement('div');
+modal.className = 'fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center z-50';
+modal.innerHTML = `
+<div class="bg-white rounded-lg max-w-2xl w-full mx-4 max-h-[90vh] overflow-y-auto">
+<div class="p-6">
+<div class="flex justify-between items-center mb-4">
+<h3 class="text-2xl font-bold text-gray-900" id="modalTitle"></h3>
+<button class="text-gray-500 hover:text-gray-700" onclick="closeModal()">
+<i class="ri-close-line ri-2x"></i>
+</button>
+</div>
+<div id="modalContent" class="prose max-w-none"></div>
+</div>
+</div>
+`;
+document.body.appendChild(modal);
+// Service content data
+const serviceContent = {
+'emergency-care': {
+title: 'Emergency Care Services',
+content: `
+<h4 class="text-xl font-semibold mb-4">24/7 Emergency Medical Services</h4>
+<p class="mb-4">Our emergency department is equipped to handle all types of medical emergencies with state-of-the-art facilities and experienced medical professionals available round the clock.</p>
+<ul class="list-disc pl-6 mb-4">
+<li>Advanced life support ambulances</li>
+<li>Trauma care unit</li>
+<li>Critical care specialists</li>
+<li>Emergency surgery facilities</li>
+<li>Rapid diagnostic services</li>
+</ul>
+<h4 class="text-xl font-semibold mb-4">Emergency Contact Numbers</h4>
+<p class="mb-4">Emergency Hotline: +977 61-561188</p>
+<p class="mb-4">Ambulance Service: +977 61-561199</p>
+`
+},
+'laboratory': {
+title: 'Laboratory Services',
+content: `
+<h4 class="text-xl font-semibold mb-4">Comprehensive Laboratory Testing</h4>
+<p class="mb-4">Our state-of-the-art laboratory provides accurate and timely diagnostic services with the latest technology and experienced technicians.</p>
+<ul class="list-disc pl-6 mb-4">
+<li>Hematology</li>
+<li>Biochemistry</li>
+<li>Microbiology</li>
+<li>Immunology</li>
+<li>Molecular diagnostics</li>
+</ul>
+<p class="mb-4">Operating Hours: 24/7</p>
+<p>Report collection: 8:00 AM - 8:00 PM</p>
+`
+},
+'radiology': {
+title: 'Imaging & Radiology',
+content: `
+<h4 class="text-xl font-semibold mb-4">Advanced Imaging Services</h4>
+<p class="mb-4">Our radiology department offers comprehensive diagnostic imaging services with the latest technology and expert radiologists.</p>
+<ul class="list-disc pl-6 mb-4">
+<li>Digital X-ray</li>
+<li>CT Scan</li>
+<li>MRI</li>
+<li>Ultrasound</li>
+<li>Mammography</li>
+</ul>
+<p>Regular Hours: 8:00 AM - 8:00 PM</p>
+<p>Emergency services available 24/7</p>
+`
+}
+};
+// Add click event listeners to all "Learn More" links
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+link.addEventListener('click', function(e) {
+const href = this.getAttribute('href').substring(1);
+if (serviceContent[href]) {
+e.preventDefault();
+openModal(href);
+}
+});
+});
+// Global functions for modal
+window.openModal = function(serviceId) {
+const service = serviceContent[serviceId];
+if (service) {
+document.getElementById('modalTitle').textContent = service.title;
+document.getElementById('modalContent').innerHTML = service.content;
+modal.classList.remove('hidden');
+document.body.style.overflow = 'hidden';
+}
+};
+window.closeModal = function() {
+modal.classList.add('hidden');
+document.body.style.overflow = '';
+};
+// Close modal when clicking outside
+modal.addEventListener('click', function(e) {
+if (e.target === modal) {
+closeModal();
+}
+});
+// Form Submissions
+const appointmentForm = document.querySelector('.appointment-form');
+if(appointmentForm) {
+appointmentForm.addEventListener('submit', function(e) {
+e.preventDefault();
+alert('Thank you for booking an appointment. We will contact you shortly.');
+this.reset();
+});
+}
+const contactForm = document.querySelector('#contact form');
+if(contactForm) {
+contactForm.addEventListener('submit', function(e) {
+e.preventDefault();
+alert('Thank you for your message. We will get back to you soon.');
+this.reset();
+});
+}
+const newsletterForm = document.querySelector('footer form');
+if(newsletterForm) {
+newsletterForm.addEventListener('submit', function(e) {
+e.preventDefault();
+alert('Thank you for subscribing to our newsletter!');
+this.reset();
+});
+}
+// Smooth scroll for all anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+e.preventDefault();
+const target = document.querySelector(this.getAttribute('href'));
+if(target) {
+target.scrollIntoView({
+behavior: 'smooth'
+});
+// Close mobile menu if open
+mobileMenu.classList.add('hidden');
+}
+});
+});
+});
+document.addEventListener('DOMContentLoaded', function() {
+// Department dropdown change event
+const departmentSelect = document.getElementById('department');
+const doctorSelect = document.getElementById('doctor');
+departmentSelect.addEventListener('change', function() {
+// Reset doctor options
+doctorSelect.innerHTML = '<option value="">Select Doctor</option>';
+// Add relevant doctors based on department
+const department = this.value;
+if (department === 'cardiology') {
+addDoctorOption('dr-sharma', 'Dr. Rajesh Sharma');
+} else if (department === 'gynecology') {
+addDoctorOption('dr-thapa', 'Dr. Sushma Thapa');
+} else if (department === 'pediatrics') {
+addDoctorOption('dr-gurung', 'Dr. Anil Gurung');
+} else if (department === 'neurology') {
+addDoctorOption('dr-poudel', 'Dr. Priya Poudel');
+}
+});
+function addDoctorOption(value, text) {
+const option = document.createElement('option');
+option.value = value;
+option.textContent = text;
+doctorSelect.appendChild(option);
+}
+});
+</script>
+</body>
+</html>
